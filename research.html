@@ -5,157 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research | Dr. Suneetha Eluri</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #f5f5f5;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1,
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
-        .section {
-            margin: 20px 0;
-        }
-
-        .section h3 {
-            background: #007bff;
-            color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .list-item {
-            padding: 10px 0;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .list-item:last-child {
-            border-bottom: none;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin: 5px 0;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <div class="container">
-        <h1>Research & Professional Contributions</h1>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-900 text-white px-8 py-4 shadow-md">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Dr. Suneetha Eluri</h1>
+            <ul class="flex gap-10 text-lg font-medium">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                <li><a href="research.html" class="hover:text-gray-300 underline font-semibold">Research</a></li>
+                <li><a href="experience.html" class="hover:text-gray-300">Experience</a></li>
+                <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="max-w-4xl mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold text-blue-900 mb-6 text-center">Research & Professional Contributions</h1>
 
         <!-- Conferences Section -->
-        <div class="section">
-            <h3>Conferences</h3>
-            <ul>
-                <li class="list-item">
-                    <strong>March 2017:</strong> Anonymization of Group Membership Information Using T-closeness and
-                    Cuckoo Filters, IEEE International Conference on Science, Technology, Engineering, and Management
-                    (ICSTEM'17), IEEE Proceedings.
-                </li>
-                <li class="list-item">
-                    Attended and published a paper on "Sentiment Analysis of Stock Prediction Using Machine Learning" in
-                    the International conference on emerging trends in engineering and technology on 30th Aug 2015 at
-                    Vishakhapatnam.
-                </li>
-            </ul>
-        </div>
+        <div class="space-y-10">
+            <div>
+                <h2 class="bg-blue-600 text-white p-3 rounded-md text-xl font-semibold">Conferences</h2>
+                <ul class="list-disc pl-5 space-y-2 mt-4">
+                    <li><strong>March 2017:</strong> Anonymization of Group Membership Information Using T-closeness and Cuckoo Filters, IEEE International Conference on Science, Technology, Engineering, and Management (ICSTEM'17), IEEE Proceedings.</li>
+                    <li>Attended and published a paper on "Sentiment Analysis of Stock Prediction Using Machine Learning" in the International conference on emerging trends in engineering and technology on 30th Aug 2015 at Vishakhapatnam.</li>
+                </ul>
+            </div>
 
-        <!-- Session Chair Section -->
-        <div class="section">
-            <h3>Session Chair/Keynote Speaker/Guest Lecture</h3>
-            <ul>
-                <li class="list-item">Delivered a lecture on "Improving Teaching Skills in C Programming Language"
-                    organized by Directorate of FDP on 29th- 2018.</li>
-                <li class="list-item">Delivered Lectures on Machine Learning at various affiliated engineering colleges
-                    of JNTUK.</li>
-                <li class="list-item">Presented an Innovative Prototype developed by University Innovation Fellows
-                    during a Two-Week Silicon Valley Meet Up (2017), Stanford University CA, USA.</li>
-                <li class="list-item">Guest Lecture on "Introduction to Computers" in the Orientation Programme for
-                    physical directors of affiliated colleges of JNTUK (14.07.2014 to 19.07.2014).</li>
-            </ul>
-        </div>
+            <div>
+                <h2 class="bg-blue-600 text-white p-3 rounded-md text-xl font-semibold">Session Chair / Keynote Speaker / Guest Lecture</h2>
+                <ul class="list-disc pl-5 space-y-2 mt-4">
+                    <li>Delivered a lecture on "Improving Teaching Skills in C Programming Language" organized by Directorate of FDP on 29th- 2018.</li>
+                    <li>Delivered Lectures on Machine Learning at various affiliated engineering colleges of JNTUK.</li>
+                    <li>Presented an Innovative Prototype developed by University Innovation Fellows during a Two-Week Silicon Valley Meet Up (2017), Stanford University CA, USA.</li>
+                    <li>Guest Lecture on "Introduction to Computers" in the Orientation Programme for physical directors of affiliated colleges of JNTUK (14.07.2014 to 19.07.2014).</li>
+                </ul>
+            </div>
 
-        <!-- R&D Projects Section -->
-        <div class="section">
-            <h3>R&D Projects</h3>
-            <ul>
-                <li class="list-item">March 2017: University Innovation Fellows - Google, Stanford University, and JNTUK
-                    (Rs. 8,45,000/-).</li>
-                <li class="list-item">August 2020: AICTE Training and Learning (ATAL) Online FDP on Emerging Areas (Rs.
-                    93,000/-).</li>
-                <li class="list-item">June 2021: AICTE Training and Learning (ATAL) Online FDP on Emerging Areas (Rs.
-                    93,000/-).</li>
-            </ul>
-        </div>
+            <div>
+                <h2 class="bg-blue-600 text-white p-3 rounded-md text-xl font-semibold">R&D Projects</h2>
+                <ul class="list-disc pl-5 space-y-2 mt-4">
+                    <li>March 2017: University Innovation Fellows - Google, Stanford University, and JNTUK (Rs. 8,45,000/-).</li>
+                    <li>August 2020: AICTE Training and Learning (ATAL) Online FDP on Emerging Areas (Rs. 93,000/-).</li>
+                    <li>June 2021: AICTE Training and Learning (ATAL) Online FDP on Emerging Areas (Rs. 93,000/-).</li>
+                </ul>
+            </div>
 
-        <!-- Ph.D Scholars Guided Section -->
-        <div class="section">
-            <h3>Ph.D Scholars Guided</h3>
-            <ul>
-                <li class="list-item"><strong>2021-22:</strong> 4 Scholars assigned, currently guiding 8.</li>
-                <li class="list-item">B. Jyothi (15022P0556): Intelligent Deep Learning-based Hierarchical Clustering
-                    for Unstructured Text Data (Co-Supervisor).</li>
-                <li class="list-item">G. Rajasekhar (15022P0536): Novel Algorithm for Mining Patterns from Image Data
-                    (Co-Supervisor).</li>
-            </ul>
-        </div>
+            <div>
+                <h2 class="bg-blue-600 text-white p-3 rounded-md text-xl font-semibold">Ph.D Scholars Guided</h2>
+                <ul class="list-disc pl-5 space-y-2 mt-4">
+                    <li><strong>2021-22:</strong> 4 Scholars assigned, currently guiding 8.</li>
+                    <li>B. Jyothi (15022P0556): Intelligent Deep Learning-based Hierarchical Clustering for Unstructured Text Data (Co-Supervisor).</li>
+                    <li>G. Rajasekhar (15022P0536): Novel Algorithm for Mining Patterns from Image Data (Co-Supervisor).</li>
+                </ul>
+            </div>
 
-        <!-- Honors and Awards Section -->
-        <div class="section">
-            <h3>Honors & Awards</h3>
-            <ul>
-                <li class="list-item">Best Teacher Award (2017) from JNTUK based on student feedback.</li>
-                <li class="list-item">Faculty Mentor for University Innovation Fellows Programme (Stanford University,
-                    2017).</li>
-                <li class="list-item">Reviewer for Springer Journal of Super Computing (SUPE) and Scopus-indexed
-                    journals.</li>
-            </ul>
-        </div>
+            <div>
+                <h2 class="bg-blue-600 text-white p-3 rounded-md text-xl font-semibold">Honors & Awards</h2>
+                <ul class="list-disc pl-5 space-y-2 mt-4">
+                    <li>Best Teacher Award (2017) from JNTUK based on student feedback.</li>
+                    <li>Faculty Mentor for University Innovation Fellows Programme (Stanford University, 2017).</li>
+                    <li>Reviewer for Springer Journal of Super Computing (SUPE) and Scopus-indexed journals.</li>
+                </ul>
+            </div>
 
-        <!-- Foreign Visits Section -->
-        <div class="section">
-            <h3>Foreign Visits</h3>
-            <ul>
-                <li class="list-item">Visited Stanford University and Google, CA, USA, as Faculty Champion for
-                    University Innovation Fellow Program (Fall 2017).</li>
-            </ul>
+            <div>
+                <h2 class="bg-blue-600 text-white p-3 rounded-md text-xl font-semibold">Foreign Visits</h2>
+                <ul class="list-disc pl-5 space-y-2 mt-4">
+                    <li>Visited Stanford University and Google, CA, USA, as Faculty Champion for University Innovation Fellow Program (Fall 2017).</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <footer>
-        <p>&copy; 2024 Dr. Suneetha Elluri. All rights reserved.</p>
-    </footer>
+    </section>
+
+    <!-- Footer -->
+        <footer class="mt-12 bg-blue-900 text-white py-8">
+            <div class="max-w-7xl mx-auto text-center">
+                <div class="flex flex-wrap justify-center gap-6 mb-4 text-sm sm:text-base">
+                    <a href="index.html" class="hover:underline">Home</a>
+                    <a href="about.html" class="hover:underline">About</a>
+                    <a href="experience.html" class="hover:underline">Experience</a>
+                    <a href="awards.html" class="hover:underline">Awards</a>
+                    <a href="publications.html" class="hover:underline">Publications</a>
+                    <a href="workshops.html" class="hover:underline">Workshops</a>
+                    <a href="administrative.html" class="hover:underline">Administrative</a>
+                    <a href="research.html" class="hover:underline">Research</a>
+                    <a href="guestlecture.html" class="hover:underline">Guest Lecture</a>
+                    <a href="contact.html" class="hover:underline">Contact</a>
+                </div>
+                <p class="text-sm">&copy; 2024 Dr. Suneetha Eluri. All rights reserved.</p>
+            </div>
+        </footer>
+
 
 </body>
 
